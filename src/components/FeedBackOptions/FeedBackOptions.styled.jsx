@@ -8,10 +8,10 @@ export const FeedbackContainer = styled.div`
 `;
 
 export const FeedbackButton = styled.button`
-  width: 120px;
+  width: 90px;
   color: #26e3f0;
   background-color: black;
-  font-size: 24px;
+  font-size: 22px;
   padding: 5px;
   border-radius: 8px;
   border: none;

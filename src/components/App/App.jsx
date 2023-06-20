@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from './App.styled';
 import { FeedbackOptions } from 'components/FeedBackOptions/FeedBackOptions';
+import { Section } from '../Section/Section';
 
 export class App extends Component {
   state = {
@@ -11,11 +12,13 @@ export class App extends Component {
 
   render() {
     const options = Object.keys(this.state);
-    console.log(options)
+    console.log(options);
     return (
       <Container>
-        <FeedbackOptions options={options} />
-        <p>Hello</p>
+        <p>title</p>
+        <Section title="Please leave your feedback">
+          <FeedbackOptions options={options} />
+        </Section>
       </Container>
     );
   }
