@@ -9,18 +9,17 @@ export const FeedbackContainer = styled.div`
 
 export const FeedbackButton = styled.button`
   width: 90px;
-  color: #26e3f0;
-  background-color: black;
+  color: #fba003;
+  background-color: #ffffff;
   font-size: 22px;
   padding: 5px;
   border-radius: 8px;
   border: none;
- 
 
   &:hover,
   &:focus {
-    color: black;
-    background-color: #26e3f0;
+    color: #ffffff;
+    background-color: #fba003;
     cursor: pointer;
   }
 `;

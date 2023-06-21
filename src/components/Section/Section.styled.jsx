@@ -6,6 +6,7 @@ export const SectionCont = styled.section`
 
 export const SectionTitle = styled.h2`
   text-align: center;
+  font-weight:700;
   font-size: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1.1;
 `;

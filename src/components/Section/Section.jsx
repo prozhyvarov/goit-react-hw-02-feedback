@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { SectionCont, SectionTitle } from './Section.styled';
 
-export const Section = ({title, children}) => {
+export const Section = ({ title, children }) => {
   return (
     <SectionCont>
       <SectionTitle>{title}</SectionTitle>
